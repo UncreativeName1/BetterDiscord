@@ -805,7 +805,7 @@ body::after {
 
 .button-1kija8:hover {										/* welcomemessage		edit channel						*/
 	background-color: rgb(var(--accentcolor));
-	color: var(--interactive-active);
+	color: var(--interactive-selected);
 	text-shadow: 1px 1px var(--textshadow);
 }
 
