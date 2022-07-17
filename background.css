@@ -24,11 +24,20 @@
 	--dangercolor: 					237,66,69;
 	
 	--textbrightest: 				255,255,255;
-	--textbrighter: 				255,235,235/*222,222,222*/;
-	--textbright: 					255,215,215/*200,200,200*/;
+	--textbrighter: 				222,222,222;
+	--textbright: 					200,200,200;
 	--textdark: 					160,160,160;
 	--textdarker: 					125,125,125;
 	--textdarkest: 					90,90,90;
+	
+	--textcolor:					222,222,222; /*color of text*/
+	--textmutedcolor:				125,125,125;
+	--channelcolor: 				255,222,222; /*default color of unselected channel*/
+	--intnormal:					255,222,222; /*default color of interactive channel*/
+	--inthover:					255,209,209; /*color when hovering a channel*/
+	--intactive:					255,71,71; /*color of active channel*/
+	--intmuted:					143,120,120; /*color of muted channel*/
+	
 	
 	--background:					url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/_res/background.jpg);
 	--backgroundposition:			center;
@@ -73,16 +82,18 @@
 	--status-danger: rgb(var(--dangercolor));
 	--status-danger-background: rgb(var(--dangercolor));
 	--status-danger-text: #fff;
+	
 	--header-primary: rgb(var(--textbrightest));
 	--header-secondary: rgb(var(--textbright));
-	--text-normal: rgb(var(--textbrighter));
-	--text-muted: rgb(var(--textdarker));
-	--channels-default: rgb(var(--textdark));
-	--interactive-normal: rgb(255,222,222);
-	--interactive-hover: rgb(255,209,209);
-	--interactive-active: rgb(255,71,71);
-	--interactive-muted: rgb(143,120,120);
+	--text-normal: rgb(var(--textcolor));
+	--text-muted: rgb(var(--textmutedcolor));
+	--channels-default: rgb(var(--channelcolor));
+	--interactive-normal: rgb(var(--intnormal));
+	--interactive-hover: rgb(var(--inthover));
+	--interactive-active: rgb(var(--intactive));
+	--interactive-muted: rgb(var(--intmuted));
 	--logo-primary: rgb(var(--textbrightest));
+	
 	--modal-background: rgba(var(--transparencycolor), .2);
 	--background-accent: rgba(var(--transparencycolor), .1);
 	--background-primary: rgba(var(--transparencycolor), .2);
