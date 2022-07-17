@@ -2328,7 +2328,7 @@ body::after {
 	background: var(--interactive-normal);
 }
 #app-mount .link-39xJu3:hover .foreground-2hyALB {
-	background: var(--interactive-active);
+	background: var(--interactive-selected);
 }
 
 .bd-social-link[title="BD" i] .bd-social-logo,
