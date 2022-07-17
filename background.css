@@ -39,6 +39,7 @@
 	--intnormal:					255,222,222; /*default color of interactive channel*/
 	--inthover:					255,209,209; /*color when hovering a channel*/
 	--intactive:					255,71,71; /*color of active channel*/
+	--intselected:					250,72,140; /*color of selected channel*/
 	--intmuted:					143,120,120; /*color of muted channel*/
 	--logoprimary:					255,255,255;
 	
@@ -94,6 +95,7 @@
 	--interactive-normal: rgb(var(--intnormal));
 	--interactive-hover: rgb(var(--inthover));
 	--interactive-active: rgb(var(--intactive));
+	--interactive-selected: rgb(var(--intselected));
 	--interactive-muted: rgb(var(--intmuted));
 	--logo-primary: rgb(var(--logoprimary));
 	
@@ -648,7 +650,7 @@ body::after {
 .modeUnread-3Cxepe:hover .icon-2W8DHg,
 .notInteractive-2tFrlE.modeConnected-NrO4cP .icon-2W8DHg,
 .notInteractive-2tFrlE.modeSelected-3DmyhH .icon-2W8DHg {
-	color: var(--interactive-active);
+	color: var(--interactive-selected);
 }
 .modeConnected-NrO4cP .subtitle-3PyFgf,						/* channel				subtitle							*/
 .modeConnected-NrO4cP:hover .subtitle-3PyFgf,
@@ -4820,7 +4822,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 	background: var(--interactive-hover);
 }
 .premiumPromoClose-Nuntxy:active {
-	background: var(--interactive-active);
+	background: var(--interactive-selected);
 }
 #app-mount .categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku,
 #app-mount .categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku {
@@ -4852,7 +4854,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 	color: var(--interactive-hover);
 }
 #app-mount .backButton-3D5utk:active {
-	color: var(--interactive-active);
+	color: var(--interactive-selected);
 }
 
 
@@ -6587,7 +6589,7 @@ html .bd-toast.toast-warn.icon::before {
 }
 .bd-select .bd-select-option.selected {
 	background-color: rgba(var(--transparencycolor), .3);
-	color: var(--interactive-active);
+	color: var(--interactive-selected);
 }
 
 .bd-pfbtn {													/* addonlist			folder button						*/
