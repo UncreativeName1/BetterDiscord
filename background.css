@@ -32,6 +32,7 @@
 	
 	--headerprimary:				255,255,255;
 	--headersecondary:				200,200,200;
+	--dmusercolor:					255,71,71;
 	--textcolor:					222,222,222; /*color of text*/
 	--textmutedcolor:				125,125,125;
 	--channelcolor: 				255,222,222; /*default color of unselected channel*/
@@ -690,7 +691,7 @@ body::after {
 .selected-3veCBZ:focus-within,
 .selected-3veCBZ:hover {
 	background-color: rgb(var(--accentcolor));
-	color: var(--header-primary);
+	color: var(--dmusercolor);
 	text-shadow: 1px 1px var(--textshadow);
 }
 .selected-3veCBZ svg:not(.svg-2azL_l) {
