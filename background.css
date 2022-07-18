@@ -15,9 +15,9 @@
 	--textshadow:					transparent;
 	
 	--accentcolor:					190,78,180;
-	--accentcolor2:					var(--accentcolor);
-	--mentioncolor:					var(--accentcolor);
-	--linkcolor:					var(--accentcolor);
+	--accentcolor2:					247,40,192;
+	--mentioncolor:					242,92,202;
+	--linkcolor:					247,40,192;
 	
 	--successcolor: 				59,165,92;
 	--warningcolor: 				250,166,26;
